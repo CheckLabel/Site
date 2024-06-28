@@ -18,6 +18,17 @@ body {
     margin-right: 1%;
 }
 
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #83AE41;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(77,109,51), rgba(255,254,255));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(77,109,51), rgb(255,254,255));
+    }
+
 .containerinx {
     display: flex;
     flex-direction: row;
