@@ -16,7 +16,7 @@ O CheckLabel é um projeto acadêmico PBL (Aprendizagem Baseada em Projetos). Co
 - Novos Produtos
 
 ## Como acessar?
-O nosso sistema está na internet, [clique aqui](https://checklabel2024.hubsapiens.com.br) para acessar.
+O nosso sistema está na internet, [clique aqui](https://cheklabel2024.hubsapiens.com.br) para acessar.
 
 ## Licença de Software
 Este projeto está licenciado sob a Licença GNU General Public License v3.0. Você pode visualizar a licença completa [aqui](https://www.gnu.org/licenses/gpl-3.0.html).
