@@ -19,6 +19,9 @@ O CheckLabel é um projeto acadêmico PBL (Aprendizagem Baseada em Projetos). Co
 ## Como acessar?
 O nosso sistema está na internet, [clique aqui](https://cheklabel2024.hubsapiens.com.br) para acessar.
 
+## Nosso objetivo
+Nosso objetivo com o CheckLabel é criar uma plataforma acessível e confiável que facilite a vida de pessoas com restrições alimentares, permitindo que visualizem, filtrem e compartilhem informações sobre produtos alimentares, garantindo escolhas mais seguras e conscientes para todos os perfis de consumidores.
+
 ## Licença de Software
 Este projeto está licenciado sob a Licença GNU General Public License v3.0. Você pode visualizar a licença completa [aqui](https://www.gnu.org/licenses/gpl-3.0.html).
 
