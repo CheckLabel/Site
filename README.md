@@ -5,13 +5,14 @@
 O CheckLabel é um projeto acadêmico PBL (Aprendizagem Baseada em Projetos). Com esse sistema, buscamos criar um local onde você possa visualizar diversas características alimentares de uma gama de produtos.
 
 ## Funcionalidades
+- Visualizar produto
 - Cadastrar produto
+- Editar produto
+- Denunciar produto
+- Pesquisar produtos
+- Filtrar produtos
 - Cadastrar Usuário
 - Logar Usuário
-- Editar artigo
-- Denunciar artigo
-- Pesquisar itens
-- Filtrar itens
 - Recomendação de produtos
 - Novos Produtos
 
