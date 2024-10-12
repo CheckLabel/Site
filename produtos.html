@@ -64,7 +64,7 @@
         </div>
         <!-- O container pai rege o container produto e dos filtros -->
         <div class="container-pai">
-            <div class="container-produtos" style="width: 90%; height: 90%;">
+            <div class="container-produtos" style="width: 85%; height: 90%;">
                 <div class="containerinx-produtos">
                     <div class="itemproduto">
                         <a href="00000000002.html">
@@ -193,27 +193,79 @@
                     </div>
                 </div>
             </div>
-            <div class="container-filtros" style="width: 10%;">
+            <div class="container-filtros" style="width: 15%;">
                 <div class="filtro">
                     <h1>
-                        <img src="img/filter_4511235.png"> Filtros
+                        <img src="img/filtro.png" width="50px"> Filtros
                     </h1>
-                    <div class="checkbox">
-                        <input type="checkbox" id="filtrar" checked>
-                        <label for="filtrar">Sem açúcar</label>
+
+                    <!-- Filtros checkbox -->
+                    <div class="todos-checkbox">
+                        <div class="checkbox">
+                            <input type="checkbox" checked>
+                            <label>Sem açúcar</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" checked>
+                            <label>Sem glúten</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" checked>
+                            <label>Sem lactose</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox">
+                            <label>Orgânico</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox">
+                            <label>Vegano</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox">
+                            <label>Vegetariano</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox">
+                            <label>Baixo sódio</label>
+                        </div>
                     </div>
-                    <div class="checkbox">
-                        <input type="checkbox" id="filtrar" checked>
-                        <label for="filtrar">Sem glúten</label>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" id="filtrar" checked>
-                        <label for="filtrar">Sem lactose</label>
-                    </div>
+
+                    <!-- Filtro Kcal -->
                     <div class="filtro-kcal">
-                        <label for="customRange2" class="form-label">Kcal</label>
-                        <input type="range" class="form-range" min="0" max="5" id="customRange2">
+                        <label class="form-label"><h4>Kcal</h4></label>
+                        <input type="range" class="form-range" min="0" max="500">
                     </div>
+
+                    <!-- Filtros: Alergia (Dropdown) -->
+                    <div class="dropdown">
+                        <label class="form-label"><h4>Tipo de Alergia</h4></label>
+                        <select class="form-select">
+                            <option value="" disabled selected>Selecione...</option>
+                            <option value="amendoim">Alergia a Amendoim</option>
+                            <option value="crustaceos">Alergia a Crustáceos</option>
+                            <option value="ovo">Alergia a Ovos</option>
+                            <option value="peixe">Alergia a Peixes</option>
+                            <option value="soja">Alergia a Soja</option>
+                            <option value="lactose">Alergia a Leite</option>
+                            <option value="trigo">Alergia a Trigo</option>
+                            <option value="outros">Outras Alergias</option>
+                        </select>
+                    </div>
+
+                    <!-- Filtros: Contraindicações (Dropdown) -->
+                    <div class="dropdown">
+                        <label class="form-label"><h4>Contraindicações</h4></label>
+                        <select class="form-select">
+                            <option value="" disabled selected>Selecione...</option>
+                            <option value="hipertensao">Hipertensão</option>
+                            <option value="diabetes">Diabetes</option>
+                            <option value="doenca-cardíaca">Doenças Cardíacas</option>
+                            <option value="problemas-renais">Problemas Renais</option>
+                            <option value="outros">Outras Contraindicações</option>
+                        </select>
+                    </div>
+
                     <button class="definir-filtros">
                         Definir
                     </button>
