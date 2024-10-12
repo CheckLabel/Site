@@ -65,9 +65,13 @@
         <form>
             <div class="cadastrarproduto-containertop">
                 <div class="cadastrarproduto-item">
-                    <div class="cadastrarprodutouploadimg">
-                        <img src="img/produto00000000003.png" height="100%" width="100%">
-                    </div>
+                    <div class="cadastrarproduto-item">
+                        <div class="cadastrarprodutouploadimg" style="position: relative; z-index: 1;">
+                          <h1>Foto:<br></h1><br>
+                          <input type="file" placeholder="Foto do Produto" accept=".jpg, .png, .jpeg" onchange="previewImage(event)">
+                          <img class="imgpreview" id="preview" src="img/produto00000000003.png" alt="Inserir imagem">
+                        </div>
+                      </div>
                 </div>
                 <div style="width: 100%; margin-left: 10px;" class="cadastrarproduto-item">
                     <div class="cadastrarprodutoinformacoes"></div>

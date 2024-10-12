@@ -153,6 +153,14 @@ h1 {
   justify-content: center;
 }
 
+.imgpreview {
+  width: 496px;
+  height: 496px;
+  border-radius: 10px;
+  position: absolute;
+  z-index: -3;
+}
+
 .cadastrarprodutouploadimg input {
   border: 2px solid #4D6D33;
   background-color: #83AE41;
@@ -201,9 +209,9 @@ h1 {
 }
 
 .cadastrarprodutoingredientes {
-  background-color: #4D6D33;
+  border: solid 2px #4D6D33;
+  background-color: #60893E;
   border-radius: 10px;
-  border: 2px solid #4D6D33;
   width: 100%px;
   height: 500px;
   color: #FFFFFF;
@@ -214,7 +222,7 @@ h1 {
   width: 97%;
   height: 400px;
   font-size: 15px;
-  border: #000000 solid 2px;
+  border: solid 2px #4D6D33;
   border-radius: 10px;
   align-items: center;
   margin-left: auto;
@@ -230,9 +238,9 @@ h1 {
 }
 
 .cadastrarprodutocontraindicacoes {
-  background-color: #4D6D33;
+  border: solid 2px #4D6D33;
+  background-color: #60893E;
   border-radius: 10px;
-  border: 2px solid #4D6D33;
   width: 100%px;
   height: 245px;
   color: #FFFFFF;
@@ -244,7 +252,7 @@ h1 {
   width: 97%;
   height: 190px;
   font-size: 15px;
-  border: #000000 solid 2px;
+  border: solid 2px #4D6D33;
   border-radius: 10px;
   align-items: center;
   margin-left: auto;
@@ -255,10 +263,10 @@ h1 {
 }
 
 .cadastrarprodutoalergenos {
-  background-color: #4D6D33;
+  border: solid 2px #4D6D33;
+  background-color: #60893E;
   border-radius: 10px;
-  border: 2px solid #4D6D33;
-  width: 100%px;
+  width: 100%;
   height: 245px;
   color: #FFFFFF;
   text-align: center;
@@ -268,7 +276,7 @@ h1 {
   width: 97%;
   height: 190px;
   font-size: 15px;
-  border: #000000 solid 2px;
+  border: solid 2px #4D6D33;
   border-radius: 10px;
   align-items: center;
   margin-left: auto;
@@ -279,9 +287,9 @@ h1 {
 }
 
 .cadastrarprodutotblnutricional {
-  background-color: #4D6D33;
+  border: solid 2px #4D6D33;
+  background-color: #60893E;
   border-radius: 10px;
-  border: 2px solid #4D6D33;
   width: 100%px;
   height: 500px;
   color: #FFFFFF;
@@ -301,7 +309,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   width: 97%;
-  border: 2px solid #000000;
+  border: solid 2px #4D6D33;
   border-radius: 10px;
   background-color: #FFFEFF;
   color: #000000;
@@ -317,6 +325,7 @@ h1 {
 
 .cadastrarprodutotblnutricional textarea {
   resize: none;
+  border: solid 2px #4D6D33;
   width: 15%;
   height: 26px;
   border: 1px solid transparent;
@@ -636,7 +645,7 @@ h1 {
   border: solid 1px #4D6D33;
   border-radius: 10px;
   color: #60893E;
-  padding-inline: 50px;
+  padding-inline: 20%;
   padding-block: 8px;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
