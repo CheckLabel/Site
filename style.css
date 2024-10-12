@@ -5,70 +5,627 @@
     font-style: normal;
   } */
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    margin-left: 1%;
-    margin-right: 1%;
+  font-family: "Radio Canada", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: Small;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-.gradient-custom {
-    /* fallback for old browsers */
-    background: #83AE41;
-    
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(to right, rgba(77,109,51), rgba(255,254,255));
-    
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, rgb(77,109,51), rgb(255,254,255));
-    }
+.conteudob {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10px;
+}
+
+.gradiente {
+
+  background: #60893E;
+  background: -webkit-linear-gradient(to right, #4D6D33, #83ae41);
+  background: linear-gradient(to right, #4D6D33, #83ae41);
+}
+
+.gradientesingup {
+  height: 125%;
+  background: #60893E;
+  background: -webkit-linear-gradient(to right, #4D6D33, #83ae41);
+  background: linear-gradient(to right, #4D6D33, #83ae41);
+}
 
 .containerinx {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    word-break: break-word;
-    margin-right: 7%;
-    margin-left: 7%
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-decoration: none;
+  margin-right: 7%;
+  margin-left: 7%
 }
 
-.item {
-    width: 200px;
-    height: 200px;
-    margin: 30px 1%;
-    margin-right: 2%;
-    margin-left: 2%;
-}
-
-.item img {
-    width: 200px;
-    height: 200px;
-    border: double 2px #4D6D33;
-    border-radius: 10px;
-}
-
-.descricaoproduto {
-    color: black;
-    font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
-}
 
 h1 {
-    font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
+  font-family: "Radio Canada Big", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
+
 .banner {
-    margin-top: 50px;
+  margin-top: 50px;
+}
+
+.date {
+  width: 82%;
+}
+
+.banner {
+  margin-top: 5%;
+  margin-bottom: 8%;
+  margin-inline: 0 !important;
+}
+
+.container_esplicacao {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.item_esplicacao {
+  width: 403.2px;
+  border: 1px solid #4D6D33;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.item_esplicacao img {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.item_esplicacao p {
+  margin: 10px;
+}
+
+
+.conteudo {
+  border-top: 10px;
+}
+
+@media (max-width: 1226px) {}
+
+.l3 {
+  font-family: "Radio Canada", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: Light;
+  font-variation-settings: "wdth" 100;
+}
+
+.l4 {
+  font-family: "Radio Canada", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: Light;
+  font-variation-settings: "wdth" 100;
+}
+
+.t4 {
+  font-family: "Radio Canada Big", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fade-out {
+  display: block;
+  -webkit-mask-image: linear-gradient(to bottom, #FFFEFF, transparent);
+  mask-image: linear-gradient(to bottom, #FFFEFF, transparent);
+}
+
+/*Cadastrar Produto (e produto)*/
+
+.cadastrarproduto-containertop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cadastrarprodutouploadimg {
+  width: 500px;
+  height: 500px;
+  border: 4px solid #4D6D33;
+  background-color: #FFFEFF;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.cadastrarprodutouploadimg input {
+  border: 2px solid #4D6D33;
+  background-color: #83AE41;
+  border-radius: 2px;
+  padding: 6px 12px;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+.cadastrarprodutouploadimg h1 {
+  padding: 10px;
+}
+
+.cadastrarprodutoinformacoes {
+  background-color: #FFFEFF;
+  color: #000000;
+  width: 100%;
+}
+
+.cadastrarprodutostitulo {
+  width: 100%;
+  height: 50px;
+  font-size: 26px;
+  border: #000000 solid 2px;
+  border-radius: 10px;
+  resize: none;
+
+}
+
+.cadastrarprodutosdescricao {
+  width: 100%;
+  height: 445px;
+  box-sizing: border-box;
+  font-size: 18px;
+  border: #000000 solid 2px;
+  border-radius: 10px;
+  resize: none;
+}
+
+.cadastrarprodutos-containerbuttom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.cadastrarprodutoingredientes {
+  background-color: #4D6D33;
+  border-radius: 10px;
+  border: 2px solid #4D6D33;
+  width: 100%px;
+  height: 500px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.cadastrarprodutoingredientes textarea {
+  width: 97%;
+  height: 400px;
+  font-size: 15px;
+  border: #000000 solid 2px;
+  border-radius: 10px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  resize: none;
+}
+
+.cadastrarprodutoingredientes h4 {
+  color: #000000;
+  margin-top: 10px;
+}
+
+.cadastrarprodutocontraindicacoes {
+  background-color: #4D6D33;
+  border-radius: 10px;
+  border: 2px solid #4D6D33;
+  width: 100%px;
+  height: 245px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.cadastrarprodutocontraindicacoes textarea {
+  width: 97%;
+  height: 190px;
+  font-size: 15px;
+  border: #000000 solid 2px;
+  border-radius: 10px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  resize: none;
+}
+
+.cadastrarprodutoalergenos {
+  background-color: #4D6D33;
+  border-radius: 10px;
+  border: 2px solid #4D6D33;
+  width: 100%px;
+  height: 245px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.cadastrarprodutoalergenos textarea {
+  width: 97%;
+  height: 190px;
+  font-size: 15px;
+  border: #000000 solid 2px;
+  border-radius: 10px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  resize: none;
+}
+
+.cadastrarprodutotblnutricional {
+  background-color: #4D6D33;
+  border-radius: 10px;
+  border: 2px solid #4D6D33;
+  width: 100%px;
+  height: 500px;
+  color: #FFFFFF;
+}
+
+.cadastrarprodutotblnutricional-top {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cadastrarprodutotblnutricional h2 {
+  text-align: center;
+}
+
+.cadastrarprodutotblnutricional table {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 97%;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-color: #FFFEFF;
+  color: #000000;
+}
+
+.cadastrarprodutotblnutricional td {
+  margin-left: 100;
+}
+
+.cadastrarprodutotblnutricional tr:nth-child(even) {
+  background-color: #e6e6e6;
+}
+
+.cadastrarprodutotblnutricional textarea {
+  resize: none;
+  width: 15%;
+  height: 26px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.cadastrarprodutotblnutricional input {
+  width: 50px;
+}
+
+.cadastrarprodutotag {
+  display: flex;
+  margin-top: 10px;
+}
+
+.cadastrarprodutotag textarea {
+  resize: none;
+  width: 97%;
+  height: 30px;
+  margin-left: 10px;
+  border: #000000 solid 2px;
+  border-radius: 10px;
+}
+
+
+.salvarproduto {
+  text-align: center;
+  font-size: 20ch !important;
+  color: #FFFFFF;
+  background-color: #318FE4;
+  border-color: transparent;
+  border-radius: 10px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 25px;
+  float: right;
+  right: 0;
+  margin-left: 10px;
+}
+
+.salvarproduto:hover {
+  text-align: center;
+  font-size: 20ch !important;
+  color: #000000;
+  background-color: #318FE4;
+  border-color: transparent;
+  border-radius: 10px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 25px;
+  float: right;
+  right: 0;
+  margin-left: 10px;
+}
+
+.apagarproduto:hover {
+  text-align: center;
+  font-size: 20ch !important;
+  color: #000000;
+  background-color: #BE0000;
+  border-color: transparent;
+  border-radius: 10px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 25px;
+  float: right;
+  right: 0;
+}
+
+.apagarproduto {
+  text-align: center;
+  font-size: 20ch !important;
+  color: #FFFFFF;
+  background-color: #BE0000;
+  border-color: transparent;
+  border-radius: 10px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 25px;
+  float: right;
+  right: 0;
+}
+
+.editarproduto:hover {
+  text-align: center;
+  font-size: 20ch !important;
+  color: #000000;
+  background-color: #4D6D33;
+  border-color: transparent;
+  border-radius: 10px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 25px;
+  float: right;
+  right: 0;
+  margin-left: 10px;
+}
+
+.editarproduto {
+  text-align: center;
+  font-size: 20ch !important;
+  color: #FFFFFF;
+  background-color: #4D6D33;
+  border-color: transparent;
+  border-radius: 10px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 25px;
+  float: right;
+  right: 0;
+  margin-left: 10px;
+}
+
+/* Produtos*/
+.barrapesquisa {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 6%;
+}
+
+/*Produtos*/
+.barrapesquisa input {
+  border: 1px solid #000;
+}
+
+/*Produtos*/
+.botao-pesquisar {
+  background-color: #4d6d33;
+  width: 28px;
+  color: #fff;
+  border: 1px solid #000;
+}
+
+/*Produtos*/
+.container-pai {
+  display: flex;
+}
+
+
+/*Produtos*/
+.item {
+  width: 200px;
+  height: 200px;
+  margin: 30px 1%;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+/*Produtos*/
+.item img {
+  width: 200px;
+  height: 200px;
+  border: double 2px #4d6d33;
+  border-radius: 10px;
+}
+
+/*Produtos*/
+.descricaoproduto {
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  width: 200px;
+  word-break: break-word;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+
+/*Produtos*/
+.nome-produto {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+
+/*Produtos*/
+.input-sm {
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+}
+
+/*Produtos*/
+.input-sm input {
+  background-color: white;
+}
+
+/*Produtos*/
+.input-sm i {
+  color: white;
+  border: black;
+  margin-left: 10px;
+}
+
+/* Produtos */
+.containerinx-produtos {
+  padding: 10px;
+  box-sizing: border-box;
+  display: grid;
+  flex-wrap: wrap;
+  gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+  /* Espaço entre os itens */
+  grid-auto-flow: dense;
+  flex: 1;
+}
+
+/*Produtos*/
+.itemproduto {
+  flex: 0 0 20%;
+  box-sizing: border-box;
+}
+
+/*Produtos*/
+.itemproduto img {
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  border: double 2px #4d6d33;
+  border-radius: 10px;
+  margin-top: 1%;
+}
+
+/*Produtos*/
+.filtro {
+  margin-top: 3%;
+  background-color: #4d6d33;
+  padding: 10px;
+  margin-right: 5%;
+}
+
+/*Produtos*/
+.filtro input {
+  margin-right: 5px;
+}
+
+/*Produtos*/
+.filtro label {
+  font-size: 14px;
+  color: #fff;
+}
+
+/*Produtos*/
+.container-filtros {
+  width: 150px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #4d6d33;
+  margin-top: 1%;
+  margin-right: 5%;
+  margin-left: 2%;
+  border-radius: 10px;
+  height: 270px;
+}
+
+/*Produtos*/
+.filtro h1 {
+  color: #fff;
+  font-size: medium;
+}
+
+/*Produtos*/
+.filtro svg {
+  width: 20px;
+  color: black;
+  border: #4d6d33;
+}
+
+/*Produtos*/
+.checkbox {
+  width: 200px;
+}
+
+/*Produtos*/
+.filtro-kcal {
+  margin-top: 15px;
+  text-align: center;
+}
+
+/*Produtos*/
+.definir-filtros {
+  text-align: center;
+}
+
+/*Produtos*/
+.definir-filtros a {
+  color: #fff;
+}
+
+/*Prosutos*/
+.page-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 10px;
 }
