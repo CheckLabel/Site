@@ -7,13 +7,13 @@
 * {
   padding: 0;
   margin: 0;
+}
+
+body {
   font-family: "Radio Canada", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: Small;
-}
-
-body {
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -97,7 +97,6 @@ h1 {
 
 .conteudo {
   border-top: 10px;
-  margin-inline: 5%;
 }
 
 @media (max-width: 1226px) {}
@@ -153,14 +152,6 @@ h1 {
   justify-content: center;
 }
 
-.imgpreview {
-  width: 496px;
-  height: 496px;
-  border-radius: 10px;
-  position: absolute;
-  z-index: -3;
-}
-
 .cadastrarprodutouploadimg input {
   border: 2px solid #4D6D33;
   background-color: #83AE41;
@@ -209,9 +200,9 @@ h1 {
 }
 
 .cadastrarprodutoingredientes {
-  border: solid 2px #4D6D33;
-  background-color: #60893E;
+  background-color: #4D6D33;
   border-radius: 10px;
+  border: 2px solid #4D6D33;
   width: 100%px;
   height: 500px;
   color: #FFFFFF;
@@ -222,7 +213,7 @@ h1 {
   width: 97%;
   height: 400px;
   font-size: 15px;
-  border: solid 2px #4D6D33;
+  border: #000000 solid 2px;
   border-radius: 10px;
   align-items: center;
   margin-left: auto;
@@ -238,9 +229,9 @@ h1 {
 }
 
 .cadastrarprodutocontraindicacoes {
-  border: solid 2px #4D6D33;
-  background-color: #60893E;
+  background-color: #4D6D33;
   border-radius: 10px;
+  border: 2px solid #4D6D33;
   width: 100%px;
   height: 245px;
   color: #FFFFFF;
@@ -252,7 +243,7 @@ h1 {
   width: 97%;
   height: 190px;
   font-size: 15px;
-  border: solid 2px #4D6D33;
+  border: #000000 solid 2px;
   border-radius: 10px;
   align-items: center;
   margin-left: auto;
@@ -263,10 +254,10 @@ h1 {
 }
 
 .cadastrarprodutoalergenos {
-  border: solid 2px #4D6D33;
-  background-color: #60893E;
+  background-color: #4D6D33;
   border-radius: 10px;
-  width: 100%;
+  border: 2px solid #4D6D33;
+  width: 100%px;
   height: 245px;
   color: #FFFFFF;
   text-align: center;
@@ -276,7 +267,7 @@ h1 {
   width: 97%;
   height: 190px;
   font-size: 15px;
-  border: solid 2px #4D6D33;
+  border: #000000 solid 2px;
   border-radius: 10px;
   align-items: center;
   margin-left: auto;
@@ -287,9 +278,9 @@ h1 {
 }
 
 .cadastrarprodutotblnutricional {
-  border: solid 2px #4D6D33;
-  background-color: #60893E;
+  background-color: #4D6D33;
   border-radius: 10px;
+  border: 2px solid #4D6D33;
   width: 100%px;
   height: 500px;
   color: #FFFFFF;
@@ -309,7 +300,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   width: 97%;
-  border: solid 2px #4D6D33;
+  border: 2px solid #000000;
   border-radius: 10px;
   background-color: #FFFEFF;
   color: #000000;
@@ -325,7 +316,6 @@ h1 {
 
 .cadastrarprodutotblnutricional textarea {
   resize: none;
-  border: solid 2px #4D6D33;
   width: 15%;
   height: 26px;
   border: 1px solid transparent;
@@ -451,55 +441,48 @@ h1 {
   margin-left: 10px;
 }
 
-/*Produtos*/
-/*usei chat gpt*/
+/* Produtos*/
 .barrapesquisa {
-  position: relative;
-  width: 300px;
+  display: flex;
+  align-items: center;
   margin-top: 20px;
   margin-left: 6%;
 }
 
+/*Produtos*/
 .barrapesquisa input {
-  width: 100%;
-  height: 40px;
-  border: 1px solid #CCCCCC;
-  border-radius: 30px;
-  padding-right: 45px;
-  box-sizing: border-box;
-}
-
-.botao-pesquisar {
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: #60893E;
-  border: none;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-
-.botao-pesquisar img {
-  width: 17px;
-  height: 17px;
-}
-
-
-.container-pai {
-  display: flex;
-  margin-top: 10px;
-  justify-content: space-between;
+  border: 1px solid #000;
 }
 
 /*Produtos*/
-.container-produtos {
+.botao-pesquisar {
+  background-color: #4d6d33;
+  width: 28px;
+  color: #fff;
+  border: 1px solid #000;
+}
+
+/*Produtos*/
+.container-pai {
   display: flex;
+}
+
+
+/*Produtos*/
+.item {
+  width: 200px;
+  height: 200px;
+  margin: 30px 1%;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+/*Produtos*/
+.item img {
+  width: 200px;
+  height: 200px;
+  border: double 2px #4d6d33;
+  border-radius: 10px;
 }
 
 /*Produtos*/
@@ -510,7 +493,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
   text-align: left;
-  width: 100%;
+  width: 200px;
   word-break: break-word;
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -546,124 +529,103 @@ h1 {
 
 /* Produtos */
 .containerinx-produtos {
+  padding: 10px;
   box-sizing: border-box;
   display: grid;
+  flex-wrap: wrap;
   gap: 10px;
-  /* Espaço entre os itens */
   grid-template-columns: repeat(5, 1fr);
+  /* Espaço entre os itens */
   grid-auto-flow: dense;
   flex: 1;
 }
 
 /*Produtos*/
 .itemproduto {
+  flex: 0 0 20%;
   box-sizing: border-box;
-  width: 100%;
-  height: 100%;
 }
 
 /*Produtos*/
 .itemproduto img {
-  width: 100%;
+  width: 200px;
+  height: 200px;
   box-sizing: border-box;
-  border: solid 2px #4d6d33;
+  border: double 2px #4d6d33;
   border-radius: 10px;
+  margin-top: 1%;
 }
 
-/*Produtos filtro*/
-
+/*Produtos*/
 .filtro {
-  align-items: center;
-  text-align: center;
-  margin-inline: auto;
+  margin-top: 3%;
+  background-color: #4d6d33;
+  padding: 10px;
+  margin-right: 5%;
 }
 
-.filtro img {
-  float: left;
-  padding: 2px;
-}
-
+/*Produtos*/
 .filtro input {
   margin-right: 5px;
 }
 
+/*Produtos*/
 .filtro label {
   font-size: 14px;
   color: #fff;
 }
 
+/*Produtos*/
 .container-filtros {
-  width: 100%;
-  margin-left: 10px;
+  width: 150px;
+  padding: 10px;
   box-sizing: border-box;
-  border: solid 1px #4D6D33;
-  background-color: #60893E;
+  background-color: #4d6d33;
+  margin-top: 1%;
+  margin-right: 5%;
+  margin-left: 2%;
   border-radius: 10px;
-  height: 100%;
-  padding: 15px;
+  height: 270px;
 }
 
+/*Produtos*/
 .filtro h1 {
   color: #fff;
+  font-size: medium;
+}
+
+/*Produtos*/
+.filtro svg {
+  width: 20px;
+  color: black;
+  border: #4d6d33;
+}
+
+/*Produtos*/
+.checkbox {
+  width: 200px;
+}
+
+/*Produtos*/
+.filtro-kcal {
+  margin-top: 15px;
   text-align: center;
 }
 
-.dropdown {
-  width: 90%;
-  margin-inline: auto;
-  margin-bottom: 15px;
-}
-
-.checkbox {
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  margin-bottom: 10px;
-}
-
-.checkbox input[type="checkbox"] {
-  accent-color: #4D6D33;
-  transform: scale(1.5);
-  margin-right: 10px;
-}
-
-.todos-checkbox {
-  margin-left: 25%;
-}
-
-.filtro-kcal {
-  width: 100%;
-  margin-top: 15px;
-  padding-inline: 20%;
-  margin-inline: auto;
-}
-
-/* Cor da bolinha do filro kcal */
-input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  background-color: #4D6D33;
-  cursor: pointer;
-}
-
-input[type="range"]::-moz-range-thumb {
-  background-color: #4D6D33;
-  cursor: pointer;
-}
-
+/*Produtos*/
 .definir-filtros {
   text-align: center;
-  background-color: #FFFFFF;
-  border: solid 1px #4D6D33;
-  border-radius: 10px;
-  color: #60893E;
-  padding-inline: 20%;
-  padding-block: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.definir-filtros:hover {
-  background-color: #4D6D33;
+/*Produtos*/
+.definir-filtros a {
   color: #fff;
+}
+
+/*Prosutos*/
+.page-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 10px;
 }
