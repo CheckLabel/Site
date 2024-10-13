@@ -7,13 +7,13 @@
 * {
   padding: 0;
   margin: 0;
-}
-
-body {
   font-family: "Radio Canada", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: Small;
+}
+
+body {
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -631,12 +631,24 @@ h1 {
   margin-left: 25%;
 }
 
-
 .filtro-kcal {
   width: 100%;
   margin-top: 15px;
   padding-inline: 20%;
   margin-inline: auto;
+}
+
+/* Cor da bolinha do filro kcal */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #4D6D33;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  background-color: #4D6D33;
+  cursor: pointer;
 }
 
 .definir-filtros {
