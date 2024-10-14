@@ -602,6 +602,8 @@ h1 {
 .container-filtros {
   margin-left: 10px;
   box-sizing: border-box;
+  word-break: break-word;
+  overflow-wrap: break-all; 
   border: solid 1px #4D6D33;
   background-color: #60893E;
   border-radius: 10px;
