@@ -677,7 +677,7 @@ input[type="range"]::-moz-range-thumb {
 
 /* Para celular e tablets */
 
-@media screen and (max-width: 1025px) and (orientation: portrait) {
+@media screen and (max-width: 1025px), screen and (orientation: portrait) {
   .container-pai {
     display: flex;
     margin-top: 10px;
@@ -709,7 +709,7 @@ input[type="range"]::-moz-range-thumb {
 }
 
 
-@media screen and (max-width: 700px) and (orientation: portrait) {
+@media screen and (max-width: 700px), screen and (orientation: portrait) {
   .container-pai {
     display: flex;
     margin-top: 10px;
