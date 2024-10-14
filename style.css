@@ -602,6 +602,8 @@ h1 {
 .container-filtros {
   margin-left: 10px;
   box-sizing: border-box;
+  word-break: break-word;
+  overflow-wrap: break-all; 
   border: solid 1px #4D6D33;
   background-color: #60893E;
   border-radius: 10px;
@@ -677,11 +679,11 @@ input[type="range"]::-moz-range-thumb {
 
 /* Para celular e tablets */
 
-@media screen and (max-width: 1025px) and (orientation: portrait) {
+@media screen and (max-width: 1024px), screen and (orientation: portrait) {
   .container-pai {
     display: flex;
     margin-top: 10px;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .containerinx-produtos {
@@ -702,6 +704,7 @@ input[type="range"]::-moz-range-thumb {
 
   .container-filtros {
     margin: auto;
+    margin-bottom: 10px;
     height: 100%;
     width: 100%
   }
@@ -712,7 +715,7 @@ input[type="range"]::-moz-range-thumb {
   .container-pai {
     display: flex;
     margin-top: 10px;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .containerinx-produtos {
@@ -733,6 +736,7 @@ input[type="range"]::-moz-range-thumb {
 
   .container-filtros {
     margin: auto;
+    margin-bottom: 10px;
     height: 100%;
     width: 100%
   }
