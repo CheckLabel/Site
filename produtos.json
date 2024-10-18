@@ -1,0 +1,135 @@
+{
+    "produtos": {
+        "produto0": {
+            "_comentario": "O produto0 nao existe, use apenas como base para outros produtos",
+            "titulo": "",
+            "descricao": "",
+            "imagem": "",
+            "ingredientes": "",
+            "contra_indicacoes": "",
+            "alergenos": "",
+            "tag": "",
+            "informacao_nutricional": {
+                "porcao_por_embalagem": "",
+                "porcao": "",
+                "nutrientes": {
+                    "valor_energetico": {
+                        "100g": "",
+                        "porcao": "",
+                        "vd": ""
+                    },
+                    "carboidratos_totais": {
+                        "100g": "",
+                        "porcao": "",
+                        "vd": ""
+                    },
+                    "acucares_totais": {
+                        "100g": "",
+                        "porcao": "",
+                        "vd": ""
+                    },
+                    "acucares_adicionados": {
+                        "100g": "",
+                        "porcao": "",
+                        "vd": ""
+                    },
+                    "proteinas": {
+                        "100g": "",
+                        "porcao": "",
+                        "vd": ""
+                    },
+                    "gorduras_totais": {
+                        "100g": "",
+                        "porcao": "",
+                        "vd": ""
+                    },
+                    "gorduras_trans": {
+                        "100g": "",
+                        "porcao": "",
+                        "vd": ""
+                    },
+                    "gorduras_saturadas": {
+                        "100g": "",
+                        "porcao": "",
+                        "vd": ""
+                    },
+                    "fibra_alimentar": {
+                        "100g": "",
+                        "porcao": "",
+                        "vd": ""
+                    },
+                    "sodio": {
+                        "100g": "",
+                        "porcao": "",
+                        "vd": ""
+                    }
+                }
+            }
+        },
+        "produto00000000003": {
+            "titulo": "CocaCola Lata 350ml",
+            "descricao": "A Coca-Cola é uma bebida carbonatada mundialmente famosa, conhecida pelo seu sabor doce e distintivo que combina notas de baunilha e caramelo. Lançada em 1886, sua fórmula secreta e borbulhante refresca e agrada paladares ao redor do mundo, sendo uma escolha popular para qualquer ocasião. A Coca-Cola oferece uma experiência de sabor única, mantendo-se uma das favoritas entre os consumidores ao longo das décadas.",
+            "imagem": "img/produto00000000003.png",
+            "ingredientes": "Água, açúcar, dióxido de carbono, corante caramelo E150d, acidificante ácido fosfórico, aromas naturais e aroma cafeína.",
+            "contra_indicacoes": "Sem contra indicações.",
+            "alergenos": "Sem alérgenos.",
+            "tag": "Tags: Coca-Cola, Refrigerante, Bebida",
+            "porcao_por_embalagem": "01",
+            "porcao": "350ml",
+            "informacao_nutricional": {
+                "nutrientes": {
+                    "valor_energetico": {
+                        "100g": "42kcal",
+                        "porcao": "149kcal",
+                        "vd": "7"
+                    },
+                    "carboidratos_totais": {
+                        "100g": "",
+                        "porcao": "",
+                        "vd": ""
+                    },
+                    "acucares_totais": {
+                        "100g": "10,6g",
+                        "porcao": "37g",
+                        "vd": "12"
+                    },
+                    "acucares_adicionados": {
+                        "100g": "10,6g",
+                        "porcao": "37g",
+                        "vd": "**"
+                    },
+                    "proteinas": {
+                        "100g": "",
+                        "porcao": "",
+                        "vd": ""
+                    },
+                    "gorduras_totais": {
+                        "100g": "",
+                        "porcao": "",
+                        "vd": ""
+                    },
+                    "gorduras_trans": {
+                        "100g": "",
+                        "porcao": "",
+                        "vd": ""
+                    },
+                    "gorduras_saturadas": {
+                        "100g": "",
+                        "porcao": "",
+                        "vd": ""
+                    },
+                    "fibra_alimentar": {
+                        "100g": "",
+                        "porcao": "",
+                        "vd": ""
+                    },
+                    "sodio": {
+                        "100g": "10mg",
+                        "porcao": "18mg",
+                        "vd": "1"
+                    }
+                }
+            }
+        }
+    }
+}
