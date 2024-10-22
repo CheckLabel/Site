@@ -457,9 +457,9 @@ h1 {
 /*usei chat gpt pra barra de pesquisa*/
 .barrapesquisa {
   position: relative;
-  width: 300px;
-  margin-top: 20px;
-  margin-left: 6%;
+  width: 40%;
+  margin-top: 10px;
+  margin-left: 5%;
 }
 
 .barrapesquisa input {
@@ -467,7 +467,8 @@ h1 {
   height: 40px;
   border: 1px solid #CCCCCC;
   border-radius: 30px;
-  padding-right: 45px;
+  padding-left: 5px;
+  padding-right: 40px;
   box-sizing: border-box;
 }
 
@@ -637,7 +638,8 @@ h1 {
 }
 
 .todos-checkbox {
-  margin-left: 25%;
+display: grid;
+justify-content: center;
 }
 
 .filtro-kcal {
@@ -707,6 +709,11 @@ input[type="range"]::-moz-range-thumb {
     margin-bottom: 10px;
     height: 100%;
     width: 100%
+  }
+  .barrapesquisa {
+    margin-inline: 5%;
+    width: 100%;
+    margin-left: 0;
   }
 }
 
