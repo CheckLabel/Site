@@ -154,8 +154,8 @@ h1 {
 }
 
 .imgpreview {
-  width: 496px;
-  height: 496px;
+  width: 495px;
+  height: 495px;
   border-radius: 10px;
   position: absolute;
   z-index: -3;
