@@ -95,6 +95,26 @@ h1 {
 }
 
 
+.proximo-icone,
+.anterior-icone {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+}
+
+.anterior-icone {
+    background-image: url("img/anterior-icone.svg");
+    margin-right: 50%;
+}
+
+.proximo-icone {
+    background-image: url("img/proxima-icone.svg");
+    margin-left: 50%;
+}
+
 .conteudo {
   border-top: 10px;
 }
